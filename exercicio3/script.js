@@ -1,13 +1,19 @@
 //código a ser reescrito
 
+const nome = prompt('fale seu nome')
+
+let idade = prompt('fale sua idade')
+
 if(nome === "José"){
 	console.log("Oi, Zé!");
 } else {
 	console.log("Olá, "+nome);
-}
 
 if(idade >= 18){
-	console.log("pode tirar carteira de motorista!");
-} else {
-	console.log("Ainda não pode tirar carteira de motorista");
+	console.log(idade >= 18 'pode tirar a CNH' : 'NAO PODE TIRR A CNH')
 }
+  } 
+
+//usando o if ternário 
+// console.log(idadeDependente === 13? 'mensagem 1': 'mensagem 2')
+// console.log(idadeDependente === 13? 'A idade do dependente é 13 e ja pode ter m cartão': "verifique outras opcoes possiveis")
